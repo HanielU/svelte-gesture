@@ -1,4 +1,4 @@
-declare type GestureEvent = import('svelte-gesture').GestureEvent
+declare type GestureEvent<T> = import('svelte-gesture').GestureEvent<T>
 
 declare namespace svelte.JSX {
   interface HTMLAttributes<T> {
